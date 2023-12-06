@@ -1,0 +1,114 @@
+/* Reset some default margin and padding for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation, i spent longer time on this part than needed, i just kept running into error and the stuff not working
+finally made it to work lol */
+header {
+    background-color: #508484;
+    color: #fff;
+    position: sticky;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15%;
+}
+
+.logo {
+    width: 100px;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+#menu ul li {
+    margin-right:20px;
+}
+
+#menu ul li:last-child {
+    margin-right: 0;
+}
+
+#menu a {
+    text-decoration: none;
+    background-color: #22333B;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.background-container { /*this is for the background picture*/
+    background-image: url('assets/images/nasa-Yj1M5riCKk4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.centered-column { /*this is for the column in the middle of the browser*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.centered-div { /*this is for the centered column/div to add content*/
+    background-color: #508484;
+    padding:10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 50%;
+}
+
+.centered-div img { /*this is for the images onto the centered column*/
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.text-background{
+    background-color: #D9D9D9;
+    border-radius: 7px;
+}
+
+.text-lines, .text-background{
+    line-height: 30px;
+}
+
+.centered-div:first-child { /*this is for the div to start on the middle/top part of the screen and not above it*/
+    margin-top:300vh;
+}
+
+.centered-div h1 { /*font size for h1*/
+    font-size:2em; 
+}
+
+.centered-div p {/*font size for <p>*/
+    font-size:1.2em; 
+}
+
+.centered-div button {/* Button styles */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #22333B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.centered-div button:hover {
+    background-color: #344E5B; /* Change background color on hover */
+}
