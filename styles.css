@@ -1,3 +1,5 @@
+@import url(fonts\font\stylesheet.css);
+
 /* Reset some default margin and padding for consistency */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -7,6 +9,9 @@ body, h1, h2, h3, p, ul, li {
 body{
     height: 100vw;
     width: 100vw;
+    font-family: 'inria_sansregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
 }
 
 #background{
@@ -60,7 +65,6 @@ nav {
     border-radius: 7px;
 }
 
-
 .centered-column { /*column in the middle of the browser*/
     display: flex;
     flex-direction: column;
@@ -71,6 +75,9 @@ nav {
     margin-top: 50px;
     z-index: -1;
     width: 100vw;
+    font-family: 'inria_sansregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
 }
 
 .centered-div, .centered-div2, .centered-div3, .centered-div5 { /*centered column/div to add content*/
@@ -79,6 +86,9 @@ nav {
     text-align: center;
     margin-bottom: 20px;
     max-width: 50%;
+    font-family: 'inria_sansregular', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
 }
 
 .centered-div2, .centered-div4 { /*centered column/div to add content(an attempt to fix some bugs i ran into)*/
