@@ -1,113 +1,198 @@
 <!DOCTYPE html>
 <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html>
     <head>
         <title>Community Science Museum</title>
     </head>
-    <body class="background-container"> <!--this is the background picture-->
-
-    <header> <!--this is for the header, i spent longer on this to work than i needed to-->
-        <nav>
-            <div class="header">
-                <a href="index.html"><img class="logo" src="assets/images/Logo.PNG" alt="Community Science Museum"></a>
+    <body id="background">
+        <header> <!--this is for the header, i spent longer on this to work than i needed to-->
+            <nav>
+                <div class="header">
+                    <a href="index.html"><img class="logo" src="assets/images/Logo.PNG" alt="Community Science Museum"></a>
+                </div>
+                <input type="checkbox" id="menu-btn">
+                <label for="menu-btn" id="menu-btn-label">☰ Menu</label>
+                <div id="menu">
+                    <ul>
+                        <li>
+                            <a href="contactus.html">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="contribution.html">Contribution</a>
+                        </li>
+                        <li>
+                            <a href="exhibitions.html">Exhibitions</a>
+                        </li>
+                        <li>
+                            <a href="terms.html">Terms</a>
+                        </li>
+                        <li>
+                            <a href="privacy.html">Privacy</a>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+            <div class="centered-column">
+                <div class="centered-div2">
+                    <h1>
+                        Community Science Museum
+                    </h1>
+                </div>
+                <div class="centered-div">
+                        <h1>Explore Togheter</h1>
+                        <p>
+                            Come join us at the Community Science Museum where we’re committed to making science accessible to all.
+                        </p>
+                </div>
+                <div class="centered-div">
+                    <img src="assets/images/brian-mcgowan-I0fDR8xtApA-unsplash.jpg" alt="astronaut in the space">
+                    <div class="text-background"></br>
+                        <h1>
+                            Visiting Professor of Aeronautics
+                        </h1>
+                        <p>
+                            It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology 
+                            will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.
+                        </p></br>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <img src="assets/images/mavis-cw-164128.jpg" alt="picture of a room with artifacts inside wooden boxes">
+                    <div class="text-background"></br>
+                        <h1>
+                            Night in the Museum
+                        </h1>
+                        <p>
+                            Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. 
+                            Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
+                        </p></br>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <img src="assets/images/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg" alt="picture of windturbines and beautiful mountaintops">
+                    <div class="text-background"></br>
+                        <h1>
+                            Energetica Exhibition on Loan
+                        </h1>
+                        <p>
+                            On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. 
+                            It’s a series of installations that allow visitors to experience the power of the elements as we harness them. 
+                            From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power
+                        </p></br>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <div class="text-lines">
+                        <h1></br>
+                            Admission
+                        </h1>
+                        <p>
+                            The entrance is free for all.
+                        </p>
+                        <p>
+                            There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
+                        </p>
+                        <p>
+                            If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
+                        </p></br>
+                        <a href="contactus.html">
+                            <button>Contact</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="centered-div">
+                        <div class="title-padding">
+                            <h1>Facilities</h1>
+                        </div>
+                </div>
+                <div class="centered-div">
+                    <div class="image-container">
+                        <img src="assets/images/mike-petrucci-c9FQyqIECds-unsplash.jpg" alt="Picture of a shop window open">
+                        <div class="image-text"></br>
+                            <h2>Shop</h2>
+                            <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you
+                                to continue to explore science even after you’ve left the museum.</p></br>
+                        </div>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <div class="image-container">
+                        <img src="assets/images/mae-mu-I7A_pHLcQK8-unsplash.jpg" alt="picture of burgers">
+                        <div class="image-text"></br>
+                            <h2>Food and drink</h2>
+                            <p>
+                                There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.
+                            </p></br>
+                        </div>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <div class="image-container">
+                        <img src="assets/images/absolutvision-UudGNHJdNSo-unsplash.jpg" alt="picture if handicap parking spot">
+                        <div class="image-text"></br>
+                            <h2>Accessibility</h2>
+                            <p>
+                                The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.
+                            </p></br>
+                        </div>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <div class="title-padding">
+                        <h1>Explore</h1>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <img src="assets/images/maxim-hopman-8vn4KvfU640-unsplash.jpg" alt="picture of a girl using virtual glasses">
+                    <div class="text-background"></br>
+                        <h1>For Kids</h1>
+                        <p>
+                            Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.
+                        </p>
+                        <p>
+                            You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? 
+                            Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.
+                        </p>
+                        <p>
+                            We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.
+                        </p>
+                        <p>
+                            During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. 
+                            Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
+                        </p></br>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <img src="assets/images/thisisengineering-raeng-TXxiFuQLBKQ-unsplash.jpg" alt="picture of a teacher next to a whiteboard">
+                    <div class="text-background"></br>
+                        <h1>For Teachers</h1>
+                        <p>
+                            As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, 
+                            teach them in our learning laboratory, and provide great video presentations that will excite and inspire them.
+                        </p>
+                        <p>
+                            Please get in touch with us here to find out more about our facilities and to arrange a time to bring your students through for a visit.
+                        </p></br>
+                    </div>
+                </div>
+                <div class="centered-div">
+                    <img src="assets/images/people-219985_1280.jpg" alt="picture of a male looking into a microscope">
+                    <div class="text-background"></br>
+                        <h1>Researchers</h1>
+                        <p>
+                            Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. 
+                        </p>
+                        <p>
+                            We have online records, laboratory space, and a working relationship with a number of universities around the country.
+                        </p></br>
+                    </div>
+                </div>
+    
             </div>
-            <div id="menu">
-                <ul>
-                    <li>
-                        <a href="contactus.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="contribution.html">Contribution</a>
-                    </li>
-                    <li>
-                        <a href="exhibitions.html">Exhibitions</a>
-                    </li>
-                    <li>
-                        <a href="terms.html">Terms</a>
-                    </li>
-                    <li>
-                        <a href="privacy.html">Privacy</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <div class="centered-column">
-        <div class="centered-div">
-            <h1>
-                Community Science Museum
-            </h1>
-        </div>
-        <div class="centered-div">
-                <h1>Explore Togheter</h1>
-                <p>
-                    Come join us at the Community Science Museum where we’re committed to making science accessible to all.
-                </p>
-        </div>
-        <div class="centered-div">
-            <img src="assets/images/brian-mcgowan-I0fDR8xtApA-unsplash.jpg" alt="astronaut in the space">
-            <div class="text-background">
-                <h1>
-                    Visiting Professor of Aeronautics
-                </h1>
-                <p>
-                    It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology 
-                    will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting ‘space’.
-                </p>
-            </div>
-    </div>
-    <div class="centered-div">
-        <img src="assets/images/mavis-cw-164128.jpg" alt="picture of a room with artifacts inside wooden boxes">
-        <div class="text-background">
-            <h1>
-                Night in the Museum
-            </h1>
-            <p>
-                Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. 
-                Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.
-            </p>
-        </div>
-    </div>
-    <div class="centered-div">
-        <img src="assets/images/jason-blackeye-nyL-rzwP-Mk-unsplash.jpg" alt="picture of windturbines and beautiful mountaintops">
-        <div class="text-background">
-            <h1>
-                Energetica Exhibition on Loan
-            </h1>
-            <p>
-                On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. 
-                It’s a series of installations that allow visitors to experience the power of the elements as we harness them. 
-                From solar energy powering lighting, to ‘Wind Island’ that shows how turbines are able to use and control wind to create power
-            </p>
-        </div>
-    </div>
-    <div class="centered-div">
-        <div class="text-lines">
-            <h1>
-                Admission
-            </h1>
-            <p>
-                The entrance is free for all.
-            </p>
-            <p>
-                There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
-            </p>
-            <p>
-                If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
-            </p>
-            <a href="contactus.html">
-                <button>Contact</button>
-            </a>
-        </div>
-    </div>
-    <div class="centered-div">
-        <h1>Facilities</h1>
-    </div>
-    <div class="centered-div">
-    </div>
-
-    </div>
+        
 
     </body>
 </html>
