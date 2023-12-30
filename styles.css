@@ -1,17 +1,13 @@
-@import url(fonts\font\stylesheet.css);
-
 /* Reset some default margin and padding for consistency */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+    font-family: 'Inria Sans', Arial, sans-serif;
 }
 
 body{
     height: 100vw;
     width: 100vw;
-    font-family: 'inria_sansregular', Arial, sans-serif;
-    font-weight:normal;
-    font-style:normal;
 }
 
 #background{
